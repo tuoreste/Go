@@ -3,7 +3,7 @@ package main
 import	(
 	"fmt"
 	"strings"
-	"github.com/tuoreste/Go/sources/helper"
+	"github.com/tuoreste/Go/book-app/sources/helper"
 )
 
 const conferenceTickets = 50
