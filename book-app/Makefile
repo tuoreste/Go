@@ -1,14 +1,10 @@
 GO := go
 
-SRC_DIR := sources
-
-# MAIN_FILE := main.go
-
 run:
-	$(GO) run . $(wildcard $(SRC_DIR)/*.go)
+	$(GO) run .
 
 build:
-	$(GO) build -o app . $(wildcard $(SRC_DIR)/*.go)
+	$(GO) build -o app .
 
 clean:
 	rm -f app
